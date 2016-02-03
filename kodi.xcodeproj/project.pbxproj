@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D71DE411C626346004DF059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71DE401C626346004DF059 /* AppDelegate.swift */; };
+		3D71DE431C626346004DF059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71DE421C626346004DF059 /* ViewController.swift */; };
+		3D71DE461C626346004DF059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71DE441C626346004DF059 /* Main.storyboard */; };
+		3D71DE481C626346004DF059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D71DE471C626346004DF059 /* Assets.xcassets */; };
+		3D71DE4B1C626346004DF059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71DE491C626346004DF059 /* LaunchScreen.storyboard */; };
+		3D71DE561C626346004DF059 /* kodiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71DE551C626346004DF059 /* kodiTests.swift */; };
+		3D71DE611C626346004DF059 /* kodiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71DE601C626346004DF059 /* kodiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D71DE521C626346004DF059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D71DE351C626346004DF059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D71DE3C1C626346004DF059;
+			remoteInfo = kodi;
+		};
+		3D71DE5D1C626346004DF059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D71DE351C626346004DF059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D71DE3C1C626346004DF059;
+			remoteInfo = kodi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D71DE3D1C626346004DF059 /* kodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D71DE401C626346004DF059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D71DE421C626346004DF059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D71DE451C626346004DF059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D71DE471C626346004DF059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D71DE4A1C626346004DF059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D71DE4C1C626346004DF059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71DE511C626346004DF059 /* kodiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kodiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D71DE551C626346004DF059 /* kodiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodiTests.swift; sourceTree = "<group>"; };
+		3D71DE571C626346004DF059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71DE5C1C626346004DF059 /* kodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D71DE601C626346004DF059 /* kodiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodiUITests.swift; sourceTree = "<group>"; };
+		3D71DE621C626346004DF059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D71DE3A1C626346004DF059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE4E1C626346004DF059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE591C626346004DF059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D71DE341C626346004DF059 = {
+			isa = PBXGroup;
+			children = (
+				3D71DE3F1C626346004DF059 /* kodi */,
+				3D71DE541C626346004DF059 /* kodiTests */,
+				3D71DE5F1C626346004DF059 /* kodiUITests */,
+				3D71DE3E1C626346004DF059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D71DE3E1C626346004DF059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D71DE3D1C626346004DF059 /* kodi.app */,
+				3D71DE511C626346004DF059 /* kodiTests.xctest */,
+				3D71DE5C1C626346004DF059 /* kodiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D71DE3F1C626346004DF059 /* kodi */ = {
+			isa = PBXGroup;
+			children = (
+				3D71DE401C626346004DF059 /* AppDelegate.swift */,
+				3D71DE421C626346004DF059 /* ViewController.swift */,
+				3D71DE441C626346004DF059 /* Main.storyboard */,
+				3D71DE471C626346004DF059 /* Assets.xcassets */,
+				3D71DE491C626346004DF059 /* LaunchScreen.storyboard */,
+				3D71DE4C1C626346004DF059 /* Info.plist */,
+			);
+			path = kodi;
+			sourceTree = "<group>";
+		};
+		3D71DE541C626346004DF059 /* kodiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D71DE551C626346004DF059 /* kodiTests.swift */,
+				3D71DE571C626346004DF059 /* Info.plist */,
+			);
+			path = kodiTests;
+			sourceTree = "<group>";
+		};
+		3D71DE5F1C626346004DF059 /* kodiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D71DE601C626346004DF059 /* kodiUITests.swift */,
+				3D71DE621C626346004DF059 /* Info.plist */,
+			);
+			path = kodiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D71DE3C1C626346004DF059 /* kodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D71DE651C626346004DF059 /* Build configuration list for PBXNativeTarget "kodi" */;
+			buildPhases = (
+				3D71DE391C626346004DF059 /* Sources */,
+				3D71DE3A1C626346004DF059 /* Frameworks */,
+				3D71DE3B1C626346004DF059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kodi;
+			productName = kodi;
+			productReference = 3D71DE3D1C626346004DF059 /* kodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D71DE501C626346004DF059 /* kodiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D71DE681C626346004DF059 /* Build configuration list for PBXNativeTarget "kodiTests" */;
+			buildPhases = (
+				3D71DE4D1C626346004DF059 /* Sources */,
+				3D71DE4E1C626346004DF059 /* Frameworks */,
+				3D71DE4F1C626346004DF059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D71DE531C626346004DF059 /* PBXTargetDependency */,
+			);
+			name = kodiTests;
+			productName = kodiTests;
+			productReference = 3D71DE511C626346004DF059 /* kodiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D71DE5B1C626346004DF059 /* kodiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D71DE6B1C626346004DF059 /* Build configuration list for PBXNativeTarget "kodiUITests" */;
+			buildPhases = (
+				3D71DE581C626346004DF059 /* Sources */,
+				3D71DE591C626346004DF059 /* Frameworks */,
+				3D71DE5A1C626346004DF059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D71DE5E1C626346004DF059 /* PBXTargetDependency */,
+			);
+			name = kodiUITests;
+			productName = kodiUITests;
+			productReference = 3D71DE5C1C626346004DF059 /* kodiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D71DE351C626346004DF059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "javi manjon";
+				TargetAttributes = {
+					3D71DE3C1C626346004DF059 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3D71DE501C626346004DF059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3D71DE3C1C626346004DF059;
+					};
+					3D71DE5B1C626346004DF059 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3D71DE3C1C626346004DF059;
+					};
+				};
+			};
+			buildConfigurationList = 3D71DE381C626346004DF059 /* Build configuration list for PBXProject "kodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D71DE341C626346004DF059;
+			productRefGroup = 3D71DE3E1C626346004DF059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D71DE3C1C626346004DF059 /* kodi */,
+				3D71DE501C626346004DF059 /* kodiTests */,
+				3D71DE5B1C626346004DF059 /* kodiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D71DE3B1C626346004DF059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71DE4B1C626346004DF059 /* LaunchScreen.storyboard in Resources */,
+				3D71DE481C626346004DF059 /* Assets.xcassets in Resources */,
+				3D71DE461C626346004DF059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE4F1C626346004DF059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE5A1C626346004DF059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D71DE391C626346004DF059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71DE431C626346004DF059 /* ViewController.swift in Sources */,
+				3D71DE411C626346004DF059 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE4D1C626346004DF059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71DE561C626346004DF059 /* kodiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D71DE581C626346004DF059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D71DE611C626346004DF059 /* kodiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D71DE531C626346004DF059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D71DE3C1C626346004DF059 /* kodi */;
+			targetProxy = 3D71DE521C626346004DF059 /* PBXContainerItemProxy */;
+		};
+		3D71DE5E1C626346004DF059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D71DE3C1C626346004DF059 /* kodi */;
+			targetProxy = 3D71DE5D1C626346004DF059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D71DE441C626346004DF059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D71DE451C626346004DF059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D71DE491C626346004DF059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D71DE4A1C626346004DF059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D71DE631C626346004DF059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D71DE641C626346004DF059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D71DE661C626346004DF059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D71DE671C626346004DF059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D71DE691C626346004DF059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kodi.app/kodi";
+			};
+			name = Debug;
+		};
+		3D71DE6A1C626346004DF059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kodi.app/kodi";
+			};
+			name = Release;
+		};
+		3D71DE6C1C626346004DF059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kodi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3D71DE6D1C626346004DF059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = javi.kodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kodi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D71DE381C626346004DF059 /* Build configuration list for PBXProject "kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71DE631C626346004DF059 /* Debug */,
+				3D71DE641C626346004DF059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D71DE651C626346004DF059 /* Build configuration list for PBXNativeTarget "kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71DE661C626346004DF059 /* Debug */,
+				3D71DE671C626346004DF059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D71DE681C626346004DF059 /* Build configuration list for PBXNativeTarget "kodiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71DE691C626346004DF059 /* Debug */,
+				3D71DE6A1C626346004DF059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D71DE6B1C626346004DF059 /* Build configuration list for PBXNativeTarget "kodiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71DE6C1C626346004DF059 /* Debug */,
+				3D71DE6D1C626346004DF059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D71DE351C626346004DF059 /* Project object */;
+}
